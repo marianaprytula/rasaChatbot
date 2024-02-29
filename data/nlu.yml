@@ -1,0 +1,83 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: store_hours
+  examples: |
+    - What are the store hours?
+    - What are the shop hours?
+    - the shop hours?
+    - o'clocks the store works?
+
+- intent: return_policy
+  examples: |
+    - When can I return?
+    - What is your return policy?
+    
+- intent: shipping
+  examples: |
+    - how much i should wait for order?
+    - How long does shipping take?
+    
+- intent: international
+  examples: |
+    - Do you ship internationally?
+    
+- intent: tracking
+  examples: |
+    - How can I track my order?
+
+- intent: lost
+  examples: |
+    - What happens if my package is lost?
+    
+- intent: payment
+  examples: |
+    - What payment methods do you accept?
+
+- intent: discounts
+  examples: |
+    - How can I use my discount code?
+    
+- intent: formats
+  examples: |
+    - In what formats are your eBooks available?
+
+- intent: support
+  examples: |
+    - How can I contact customer support?
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

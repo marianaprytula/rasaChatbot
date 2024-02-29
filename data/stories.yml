@@ -1,0 +1,36 @@
+version: "3.1"
+
+stories:
+
+- story: path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: store_hours
+  - action: utter_store_hours
+  - intent: support
+  - action: utter_support
+
+- story: path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: tracking
+  - action: utter_tracking
+  - intent: formats
+  - action: utter_formats
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: return_policy
+  - action: utter_return_policy
+  - intent: discounts
+  - action: utter_discounts
+  - intent: support
+  - action: utter_support
+  - intent: goodbye
+  - action: utter_goodbye

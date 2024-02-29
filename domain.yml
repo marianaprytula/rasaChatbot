@@ -1,0 +1,68 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - store_hours
+  - return_policy
+  - shipping
+  - international
+  - tracking
+  - lost
+  - payment
+  - discounts
+  - formats
+  - support
+  - bot_challenge
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_store_hours:
+  - text: "Our online store is open 24/7. For physical stores, the hours are 9 AM to 8 PM from Monday to Saturday."
+
+  utter_return_policy:
+  - text: "We accept returns within 30 days of purchase. The items must be in their original condition."
+
+
+  utter_shipping:
+  - text: "Shipping usually takes between 3 to 5 business days for domestic orders. For international orders, it can take up to 14 business days."
+
+  
+  utter_international:
+  - text: "Yes, we offer international shipping. Extra charges may apply depending on the destination country."
+
+
+  utter_tracking:
+  - text: "Once your order has been dispatched, we will send you a confirmation email with a tracking number. You can use this number to track your order on our website."
+
+  utter_lost:
+  - text: "In the unfortunate event of a lost package, please contact our customer service. They will assist you with the necessary steps for a refund or reshipment."
+
+
+  utter_payment:
+  - text: "We accept Visa, Mastercard, American Express, and PayPal."
+
+  
+  utter_discounts:
+  - text: "You can apply your discount code at checkout. Just enter the code in the box labelled 'Discount Code', and the discount will be automatically applied to your order."
+
+
+  utter_formats:
+  - text: "Our eBooks are available in EPUB and PDF formats."
+
+
+  utter_support:
+  - text: "You can reach our customer support team by sending an email to support@onlinebookstore.com or by calling 123-456-7890 between 9 AM and 5 PM from Monday to Friday."
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
